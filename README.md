@@ -85,7 +85,7 @@ func main() {
 	balance, err = c.GetBalanceWithConfig(
 		context.TODO(),
 		"RNfp4xTbBb4C3kcv2KqtAj8mu4YhMHxqm1Skg9uchZ7",
-		rpc.GetBalanceConfig{
+		client.GetBalanceConfig{
 			Commitment: rpc.CommitmentProcessed,
 		},
 	)
